@@ -1,0 +1,9 @@
+interface:
+  display_name: Innovate Me
+  short_description: Invent surprising ideas for games, engineering, and research.
+  default_prompt: Use $innovate-me to explore inventive, non-obvious directions
+    for this challenge.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
