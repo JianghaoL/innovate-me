@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "innovate-me",
+  "version": "1.0.0",
+  "description": "A structured creative engine for unusual game concepts, inventive engineering, and testable research ideas.",
+  "repository": "https://github.com/JianghaoL/innovate-me",
+  "license": "MIT",
+  "author": {
+    "name": "Jianghao"
+  },
+  "keywords": ["creativity", "innovation", "brainstorming", "game-design", "engineering", "research"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Innovate Me",
+        "shortDescription": "Creative, technical, and scientific ideation",
+        "longDescription": "Expand beyond conventional ideas using assumption inversion, distant analogies, and constraint mutation. Explore wild game concepts, unconventional engineering designs, or research hypotheses with clear tests and honest novelty checks.",
+        "developerName": "Jianghao",
+        "category": "Productivity",
+        "capabilities": [
+          "Generate divergent and unexpected concepts",
+          "Explore engineering alternatives",
+          "Develop testable research hypotheses"
+        ],
+        "defaultPrompt": [
+          "Invent three genuinely different game mechanics using sound.",
+          "Find unconventional approaches to low-latency pitch tracking.",
+          "Challenge this research idea and propose a decisive experiment."
+        ],
+        "brandColor": "#7C3AED"
+      }
+    }
+  }
+}
