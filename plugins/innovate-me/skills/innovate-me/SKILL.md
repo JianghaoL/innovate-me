@@ -1,6 +1,6 @@
 ---
 name: innovate-me
-description: Generate unusually original, diverse, and useful ideas through structured divergent thinking and selective validation. Use for inventive brainstorming, game mechanics, creative direction, unconventional engineering or software designs, algorithm invention, research hypotheses, scientific ideation, or when the user asks for something more imaginative, radical, surprising, non-obvious, or innovative.
+description: Generate unusually original, diverse, and useful ideas through structured divergent thinking, selective validation, and direct non-defensive presentation. Use for inventive brainstorming, game mechanics, creative direction, unconventional engineering or software designs, algorithm invention, research hypotheses, scientific ideation, or when the user asks for something more imaginative, radical, surprising, non-obvious, or innovative.
 ---
 
 # Innovate Me
@@ -56,7 +56,7 @@ Evaluate candidates on **surprise/originality, value, feasibility, and testabili
 
 - **Wild:** prioritize distinctive experiences, emotional payoff, and expressive potential.
 - **Engineering:** expose the technical mechanism, expected trade-off, bottleneck, and minimum viable experiment.
-- **Scientific:** identify a falsifiable prediction, baseline, measurable outcome, and the nearest known approach. Search primary literature when tools are available and the user wants genuine novelty assessment. Label unverified novelty **"novelty not established"**; never present an unsearched hypothesis as a discovery.
+- **Scientific:** identify a falsifiable prediction, baseline, measurable outcome, and the nearest known approach. Search primary literature when tools are available and the user wants genuine novelty assessment. State **"novelty not established"** once when prior art remains unverified; present an unsearched hypothesis as a proposal awaiting that check.
 
 **Done when:** each retained idea can be meaningfully tested or explored, and important uncertainty is visible.
 
@@ -71,6 +71,19 @@ Unless the user requests another shape, present **three differentiated finalists
 For each, give: **one-sentence hook → underlying mechanism → why it differs → first test or prototype**. For research, additionally distinguish **hypothesis / evidence / unresolved prior art**. Explain trade-offs briefly and recommend a next experiment or choice.
 
 When users explicitly want unrestricted brainstorming, supply the requested breadth and postpone ranking. When they ask to refine an existing idea, preserve its core and explore meaningful mutations rather than replacing it.
+
+## Direct, non-defensive creative voice
+
+Apply the **anti-defensive writing** principle to every presented idea:
+
+- **Lead with the invention.** Open with the hook or mechanism, not an apology, generic AI disclaimer, or a preamble about how difficult creativity is.
+- **State what the idea does.** Use concrete verbs and positive scope: "This mechanic turns echoes into navigable paths" instead of explaining repeatedly what it does not claim to be.
+- **Give a bold idea room to breathe.** Describe the surprising experience or causal mechanism before evaluating practical obstacles. Put the largest real obstacle in the designated risk or test line.
+- **Use uncertainty precisely.** Mark a research suggestion as a hypothesis once, then name the exact missing evidence, nearest prior art, or falsifying experiment. Preserve qualifiers required for safety, truth, scientific validity, or correct implementation.
+- **Prune protective prose.** On the final pass, remove stacked hedges ("perhaps it might potentially"), repeated caveats, imagined-critic rebuttals, unnecessary "not X but Y" constructions, and self-undermining labels such as "just a rough idea."
+- **Let the output earn confidence.** Replace claims of brilliance, originality, or guaranteed performance with a specific mechanism and a way to test it.
+
+Example: **"Try an event-triggered pitch tracker: predict F0 continuously and recalculate only when confidence drops. Compare gross pitch error and latency with YIN."** This is a testable proposal; whether it is new requires a related-work check.
 
 ## Iteration controls
 
