@@ -46,6 +46,7 @@ The standalone Agent Skill is at [`plugins/innovate-me/skills/innovate-me`](plug
 ## What it does and does not do
 
 - Uses assumption inversion, distant-domain transfers, and constraint mutation to find different mechanisms instead of cosmetic variants.
+- Presents ideas directly, with strong mechanisms upfront and only evidence-based limitations where they matter; inspired by anti-defensive writing principles.
 - Scores ideas qualitatively on distinctiveness, value, feasibility, and testability.
 - For scientific claims, separates a promising hypothesis from verified related work and experimental results.
 - **Does not modify model weights, guarantee originality, or claim a discovery without evidence.**
