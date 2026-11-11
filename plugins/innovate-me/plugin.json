@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "innovate-me",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A structured creative engine for unusual game concepts, inventive engineering, and testable research ideas.",
   "repository": "https://github.com/JianghaoL/innovate-me",
   "license": "MIT",
@@ -14,7 +14,7 @@
       "interface": {
         "displayName": "Innovate Me",
         "shortDescription": "Creative, technical, and scientific ideation",
-        "longDescription": "Expand beyond conventional ideas using assumption inversion, distant analogies, and constraint mutation. Explore wild game concepts, unconventional engineering designs, or research hypotheses with clear tests and honest novelty checks.",
+        "longDescription": "Expand beyond conventional ideas using assumption inversion, distant analogies, and constraint mutation. Explore wild game concepts, unconventional engineering designs, or research hypotheses with clear tests, honest novelty checks, and direct, non-defensive writing.",
         "developerName": "Jianghao",
         "category": "Productivity",
         "capabilities": [
